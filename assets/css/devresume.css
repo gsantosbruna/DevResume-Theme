@@ -620,7 +620,7 @@ progress {
     max-width: 720px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 0px) {
   .container-lg,
   .container-md,
   .container-sm,
@@ -1166,7 +1166,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 0px) {
   .col-lg {
     flex: 1 0 0%;
   }
@@ -1847,31 +1847,31 @@ progress {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 0x) {
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 0px) {
   .table-responsive-md {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 }
-@media (max-width: 991.98px) {
+@media (max-width: 0px) {
   .table-responsive-lg {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 0px) {
   .table-responsive-xl {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 }
-@media (max-width: 1399.98px) {
+@media (max-width: 0px) {
   .table-responsive-xxl {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -3247,7 +3247,7 @@ fieldset:disabled .btn {
     left: auto;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 0px) {
   .dropdown-menu-lg-start {
     --bs-position: start;
   }
@@ -3871,7 +3871,7 @@ fieldset:disabled .btn {
     overflow-y: visible;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 0px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4843,7 +4843,7 @@ fieldset:disabled .btn {
     border-left-width: var(--bs-list-group-border-width);
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 0px) {
   .list-group-horizontal-lg {
     flex-direction: row;
   }
@@ -5331,7 +5331,7 @@ fieldset:disabled .btn {
 .modal-fullscreen .modal-body {
   overflow-y: auto;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 0px) {
   .modal-fullscreen-sm-down {
     width: 100vw;
     max-width: none;
@@ -5351,7 +5351,7 @@ fieldset:disabled .btn {
     overflow-y: auto;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 0px) {
   .modal-fullscreen-md-down {
     width: 100vw;
     max-width: none;
@@ -5371,7 +5371,7 @@ fieldset:disabled .btn {
     overflow-y: auto;
   }
 }
-@media (max-width: 991.98px) {
+@media (max-width: 0px) {
   .modal-fullscreen-lg-down {
     width: 100vw;
     max-width: none;
@@ -5391,7 +5391,7 @@ fieldset:disabled .btn {
     overflow-y: auto;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 0px) {
   .modal-fullscreen-xl-down {
     width: 100vw;
     max-width: none;
@@ -5411,7 +5411,7 @@ fieldset:disabled .btn {
     overflow-y: auto;
   }
 }
-@media (max-width: 1399.98px) {
+@media (max-width: 0px) {
   .modal-fullscreen-xxl-down {
     width: 100vw;
     max-width: none;
@@ -6004,7 +6004,7 @@ fieldset:disabled .btn {
   --bs-offcanvas-border-color: var(--bs-border-color-translucent);
   --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
-@media (max-width: 575.98px) {
+@media (max-width: 0x) {
   .offcanvas-sm {
     position: fixed;
     bottom: 0;
@@ -6022,12 +6022,12 @@ fieldset:disabled .btn {
     transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   }
 }
-@media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {
+@media (max-width: 0px) and (prefers-reduced-motion: reduce) {
   .offcanvas-sm {
     transition: none;
   }
 }
-@media (max-width: 575.98px) {
+@media (max-width: 0x) {
   .offcanvas-sm.showing,
   .offcanvas-sm.show:not(.hiding) {
     -webkit-transform: none;
@@ -6095,7 +6095,7 @@ fieldset:disabled .btn {
     background-color: transparent !important;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 0px) {
   .offcanvas-md {
     position: fixed;
     bottom: 0;
@@ -6113,12 +6113,12 @@ fieldset:disabled .btn {
     transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   }
 }
-@media (max-width: 767.98px) and (prefers-reduced-motion: reduce) {
+@media (max-width: 0px) and (prefers-reduced-motion: reduce) {
   .offcanvas-md {
     transition: none;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 0px) {
   .offcanvas-md.showing,
   .offcanvas-md.show:not(.hiding) {
     -webkit-transform: none;
@@ -6209,7 +6209,7 @@ fieldset:disabled .btn {
     transition: none;
   }
 }
-@media (max-width: 991.98px) {
+@media (max-width: 0px) {
   .offcanvas-lg.showing,
   .offcanvas-lg.show:not(.hiding) {
     -webkit-transform: none;
@@ -6260,7 +6260,7 @@ fieldset:disabled .btn {
     transform: translateY(100%);
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 0px) {
   .offcanvas-lg {
     --bs-offcanvas-height: auto;
     --bs-offcanvas-border-width: 0;
@@ -6277,7 +6277,7 @@ fieldset:disabled .btn {
     background-color: transparent !important;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 0px) {
   .offcanvas-xl {
     position: fixed;
     bottom: 0;
@@ -6295,12 +6295,12 @@ fieldset:disabled .btn {
     transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   }
 }
-@media (max-width: 1199.98px) and (prefers-reduced-motion: reduce) {
+@media (max-width: 0px) and (prefers-reduced-motion: reduce) {
   .offcanvas-xl {
     transition: none;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 0px) {
   .offcanvas-xl.showing,
   .offcanvas-xl.show:not(.hiding) {
     -webkit-transform: none;
@@ -6368,7 +6368,7 @@ fieldset:disabled .btn {
     background-color: transparent !important;
   }
 }
-@media (max-width: 1399.98px) {
+@media (max-width: 0px) {
   .offcanvas-xxl {
     position: fixed;
     bottom: 0;
@@ -6386,12 +6386,12 @@ fieldset:disabled .btn {
     transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   }
 }
-@media (max-width: 1399.98px) and (prefers-reduced-motion: reduce) {
+@media (max-width: 0px) and (prefers-reduced-motion: reduce) {
   .offcanvas-xxl {
     transition: none;
   }
 }
-@media (max-width: 1399.98px) {
+@media (max-width: 0px) {
   .offcanvas-xxl.showing,
   .offcanvas-xxl.show:not(.hiding) {
     -webkit-transform: none;
@@ -6811,7 +6811,7 @@ fieldset:disabled .btn {
     z-index: 1020;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 0px) {
   .sticky-lg-top {
     position: -webkit-sticky;
     position: sticky;
@@ -7725,7 +7725,7 @@ fieldset:disabled .btn {
   line-height: 2 !important;
 }
 .text-start {
-  text-align: left !important;
+  text-align: right !important;
 }
 .text-end {
   text-align: right !important;
@@ -8978,7 +8978,7 @@ fieldset:disabled .btn {
     text-align: center !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 0px) {
   .float-lg-start {
     float: left !important;
   }
@@ -10650,12 +10650,12 @@ a.resume-link:hover {
 .fa-heart {
   color: #fb866a;
 }
-@media (max-width: 991.98px) {
+@media (max-width: 0px) {
   .resume-aside {
     border-left: 0;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 0px) {
   .resume-contact {
     border-left: 0;
   }

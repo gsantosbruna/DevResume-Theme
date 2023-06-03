@@ -35,7 +35,9 @@ export default function createExperience(experience) {
     "col-md-6",
     "col-lg-4"
   );
-  experienceCompanyAndDate.textContent = `${experience.company} | ${experience.startDate} - ${experience.endDate}`;
+  experienceCompanyAndDate.innerHTML = `${experience.company} 
+  <br>
+  ${experience.startDate} - ${experience.endDate}`;
 
   experienceHeader.appendChild(experienceTitle);
   experienceHeader.appendChild(experienceCompanyAndDate);

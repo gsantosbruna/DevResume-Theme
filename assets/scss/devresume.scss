@@ -195,14 +195,14 @@ a.resume-link {
 }
 
 // Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
+@media (max-width: 0px) {
   .resume-aside {
     border-left: 0;
   }
 }
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
+@media (max-width: 0px) {
   .resume-contact {
     border-left: 0;
   }
