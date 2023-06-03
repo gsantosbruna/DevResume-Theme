@@ -112,6 +112,17 @@
   font-weight: 700;
 }
 
+.languages-icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+  margin-right: 0.5rem;
+}
+
+.downloadTitle {
+  /* margin-left: 5px; */
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
