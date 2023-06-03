@@ -92,6 +92,26 @@
 *::after {
   box-sizing: border-box;
 }
+
+.languages {
+  text-align: left;
+  text-decoration: none;
+}
+
+.languages-icon {
+  text-decoration: none;
+}
+
+.switchLanguage {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.languagesTitle {
+  font-weight: 700;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;

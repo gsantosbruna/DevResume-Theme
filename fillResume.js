@@ -15,7 +15,6 @@ export default function fillHeader(data) {
   resumeEmail.textContent = data.email;
   resumeWebSite.textContent = "gsantosbruna/portfolio";
   resumeCity.textContent = "Paris, FR";
-  aboutMe.textContent = data.aboutMe;
 }
 
 async function filExperience() {
