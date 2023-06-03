@@ -2,13 +2,41 @@ import { conectResume } from "./conectResume.js";
 
 const sideResume = document.querySelector("[data-side]");
 
+function getUrlParameter(name) {
+  name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+  var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+  var results = regex.exec(window.location.search);
+  return results === null
+    ? ""
+    : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+var jsonLink = "resume";
+var idioma = getUrlParameter("lang");
+var languageTitle = "Languages";
+var certificationTitle = "Certification";
+switch (idioma) {
+  case "en":
+    languageTitle = "Languages";
+    certificationTitle = "Certification";
+    break;
+  case "pt-br":
+    languageTitle = "Idiomas";
+    certificationTitle = "Certificação";
+    break;
+  case "fr":
+    languageTitle = "Langues";
+    certificationTitle = "Certification";
+    break;
+}
+
 export function createLanguage(languages) {
   const languageItem = document.createElement("section");
   languageItem.classList.add("skills-section", "py-3");
 
   const itemTitle = document.createElement("h4");
   itemTitle.classList.add("text-uppercase", "resume-section-heading", "mb-4");
-  itemTitle.textContent = "Languages";
+  itemTitle.textContent = languageTitle;
   languageItem.appendChild(itemTitle);
 
   const languageList = document.createElement("ul");
@@ -39,7 +67,7 @@ export function createCertification(certification) {
 
   const itemTitle = document.createElement("h4");
   itemTitle.classList.add("text-uppercase", "resume-section-heading", "mb-4");
-  itemTitle.textContent = "Certification";
+  itemTitle.textContent = certificationTitle;
   certificationItem.appendChild(itemTitle);
 
   const certificationList = document.createElement("ul");
