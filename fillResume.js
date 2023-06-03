@@ -7,7 +7,6 @@ export default function fillHeader(data) {
   const resumeEmail = document.querySelector("[data-email]");
   const resumeWebSite = document.querySelector("[data-site]");
   const resumeCity = document.querySelector("[data-city]");
-  const aboutMe = document.querySelector("[data-aboutMe]");
 
   resumeName.textContent = data.name;
   resumeTagLine.textContent = data.tagline;
@@ -15,7 +14,6 @@ export default function fillHeader(data) {
   resumeEmail.textContent = data.email;
   resumeWebSite.textContent = "gsantosbruna/portfolio";
   resumeCity.textContent = "Paris, FR";
-  aboutMe.textContent = data.aboutMe;
 }
 
 async function filExperience() {
